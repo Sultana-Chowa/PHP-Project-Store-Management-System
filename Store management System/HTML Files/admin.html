@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store Management System</title>
+    <link rel="stylesheet" href="admin_styyle.css">
+    <!---we had linked our css file----->
+</head>
+<body>
+    <div class="full-page"> 
+        <div class="topnav">
+            <a class="active" href="http://localhost/STORE_MANAGEMENT/">Home</a>
+            <a href="http://localhost/STORE_MANAGEMENT/login.html">Assistant LogIn</a>
+            <a href="http://localhost/STORE_MANAGEMENT/admin.html">Admin LogIn</a>
+          </div> 
+    <h1>Store Management System</h1>
+        <div id='login-form'class='login-page'>
+            <div class="form-box">
+                
+                <div class='button-box'>
+                <center>Admin Login</center>
+                </div>  
+                <form action="admin.php" method="post" id='login' class='input-group-login'>
+                      <input type='text' name="u_name" class='input-field'placeholder='Admin Id.....' required >
+		    <input type='password'name="u_pass"class='input-field'placeholder='Admin Password......' required>
+		    <button type='submit'class='submit-btn'>Log in</button>    
+		 </form>
+	
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+               

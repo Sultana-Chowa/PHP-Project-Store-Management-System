@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Management System</title>
+    <link rel="stylesheet" href="sell.css">
+</head>
+<body>
+  <div class="ban">
+        <div class="custo">
+         <h1>Sell Section</h1>
+         <div id="p1">Insert Selling Information</div>
+         <div class="bodyy">
+          <form action="sell.php" method="post">   
+            <p>
+              <label>Customer ID: </label> 
+              <input type="text" name="customer_id" />
+            </p>
+        
+              <p>
+                <label>Product ID: </label> 
+                <input type="text" name="product_id" />
+              </p>
+              <p>
+                <label>Sell Quantity: </label>
+                <input type="text" name="s_quantity" /> 
+                 </p>
+            
+            <p>
+              <label>Date: </label> 
+              <input type="text" name="date" /> 
+            </p>
+            <button type="submit">Insert</button>
+          </form>
+         </div>
+      </div>
+  </div>

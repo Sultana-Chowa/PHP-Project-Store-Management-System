@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.ban{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(cus.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.custo h1{
+    color: rgb(139, 237, 188);
+    font-size: 35px;
+    margin-top: 0px;
+    padding: 20px;
+}
+.bodyy{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border: 5px solid rgb(139, 237, 188);
+    height: 450px;
+    width: 550px;
+}
+#p1{
+    text-align: center;
+    color: rgb(139, 237, 188);
+    margin: 20px auto;
+    font-family: bold 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 25px;
+    padding: 1px;
+}
+.custo p{
+    text-align: center;
+    color: rgb(139, 237, 188);
+    margin: 20px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    padding: 10px;
+}
+input{
+    width: 200px;
+    height: 2px;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid rgb(139, 237, 188);
+    background: transparent;
+    font-size: 15px;
+    color: rgb(139, 237, 188);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+button{
+    width: 150px;
+    height:30px;
+    padding: 3px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid rgb(139, 237, 188);
+    background: transparent;
+    color: rgb(139, 237, 188);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+

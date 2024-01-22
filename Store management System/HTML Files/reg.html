@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Management System</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+    body{
+      width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(104, 104, 104, 0.85),rgba(0,0,0,0.85)),url(cus.jpg);
+    background-size: cover;
+    background-position: center;
+        padding:10%;
+        padding-right:15%;
+    }
+
+h1{
+    color: rgb(176, 243, 209);
+    margin: 20px auto;
+    font-family: bold 'Times New Roman', Times, serif;
+    font-size: 25px;
+  
+    padding: 1px;
+}
+button{
+    
+    width: 150px;
+    margin: 20px auto;
+    height:36px;
+    padding: 1px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border: 2px solid rgb(139, 237, 188);
+    background: transparent;
+    color: rgb(139, 237, 188);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+</style>
+</head>
+<body>
+         <h1>Insert Your Information For Registration</h1>
+         <form action="register.php" method="post">
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Name</span>
+        <input type="text" name="r_name" class="form-control" placeholder="Full Name..." aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon3">Personal Address</span>
+        <input type="text" name="r_address" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon3">Date of Birth</span>
+        <input type="text" name="r_dob" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+      </div>
+      
+      <div class="input-group mb-3">
+        <input type="text" name="r_num" class="form-control" placeholder="Personal Number..." aria-label="Username">
+        <span class="input-group-text">NID</span>
+        <input type="text" name="r_nid" class="form-control" placeholder="National ID..." aria-label="Server">
+      </div>
+      <button type="submit">Next</button>
+    </form>
+</body>
+</html>
